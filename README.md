@@ -15,38 +15,6 @@ A shell written in C, inspired by Bash.
 - Environment variables
 - Builtin commands: `cd`, `echo`, `env`, `exit`, `export`, `pwd`, `unset`
 
-
-
-## Instructions
-
-### Prerequisites
-
-- OS: Linux or macOS
-- make
-- cc
-- readline (macOS: `brew install readline`)
-- valgrind (for `make valgrind`)
-
-### Quick start
-
-```bash
-# compile
-make
-
-# launch shell
-./minishell
-```
-
-### Commands
-
-```bash
-make            # compile
-make clean      # remove objects
-make fclean     # remove objects and executable
-make re         # clean and recompile
-make valgrind   # run valgrind
-```
-
 ## Use
 
 ### Pipes and redirections
@@ -141,4 +109,34 @@ exit
 
 # exit with code
 exit 42
+```
+
+## Build
+
+### Prerequisites
+
+- OS: Linux or macOS
+- make
+- cc
+- readline (macOS: `brew install readline`)
+- valgrind (for `make valgrind`)
+
+### Quick start
+
+```bash
+# compile
+make
+
+# launch shell
+./minishell
+```
+
+### Commands
+
+```bash
+make            # compile
+make clean      # remove objects
+make fclean     # remove objects and executable
+make re         # clean and recompile
+make valgrind   # run valgrind
 ```
