@@ -140,3 +140,9 @@ make fclean     # remove objects and executable
 make re         # clean and recompile
 make valgrind   # run valgrind
 ```
+
+## Resources
+
+- [Bash reference manual](https://www.gnu.org/software/bash/manual/bash.html)
+- [Introduction to Systems Programming - Chapter 5: Writing your own sell](https://www.cs.purdue.edu/homes/grr/SystemsProgrammingBook/Book/Chapter5-WritingYourOwnShell.pdf)
+- [Writing a shell in C - Stephen Brennan](https://brennan.io/2015/01/16/write-a-shell-in-c/)
